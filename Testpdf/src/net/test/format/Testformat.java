@@ -18,6 +18,7 @@ public class Testformat {
 	            PdfWriter.getInstance(document, new FileOutputStream(FILE));
 	            document.open();
 	            // Left
+	            //
 	            Paragraph paragraph = new Paragraph("This is right aligned text");
 	            paragraph.setAlignment(Element.ALIGN_RIGHT);
 	            document.add(paragraph);
